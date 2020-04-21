@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+    <head>
+        <title>Unidade 04 - Head</title>
+        <meta charset="utf-8">
+
+        <!-- outros tipose de meta dados -->
+        <meta name="author" content="Lucas Raniére"> <!-- informando o autor da página -->
+        <meta name="generator" content="vscode"> <!-- editor de textos utilizado -->
+        <meta name="Keywords" content="HTML%, Curso Front End, CSS, JavaScript">
+        <meta name="description" content="Página curso de HTML5">
+        <meta name=application-name" content="UDemy">
+
+        <!-- recarregar a página pelo meta -->
+        <meta http-equiv="refresh" content="3">
+
+        <!-- script para sortear um número quando a página recarregar -->
+        <script>
+            function sorteioNumero() {
+                resultado.innerHTML = Math.random() * 50;
+            }
+            window.onload = sorteioNumero;
+        </script>
+
+    </head>
+    <body>
+        <p id="resultado"></p>
+    </body>
+</html>
