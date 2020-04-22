@@ -2,36 +2,24 @@
 <html lang="pt-BR">
     <head>
         <meta charset="utf-8">
-        <title>Unidade 06 - Estilo Inline</title>
-
-        <style>
-            figure {
-                float: right;
-                margin-right: 10px;
-                margin-bottom: 10px;
-                border: 1px solid #666  
-            }
-        </style>
+        <title>Unidade 07 - Link Relativos</title>
     </head>
     <body>
-        <h1>Receita Pato com laranja</h1>
+        <h1 id="topo">Receita Pato com laranja</h1>
 
-        <figure>
-            <img src="img/pato_laranja.jpg" width="120" height="120"
-                title="Foto do pato com laranja"
-                alt="Foto do pato com laranja"                   
-            >
-            <figcaption>
-                Foto do prato pronto (Foto: Patolino)
-            </figcaption>
-        </figure>
+        <a href=receita/alinhamento_img.html" target="blank">
+        <img src="img/pato_laranja.jpg" width="120" height="120"
+            title="Foto do pato com laranja"
+            alt="Foto do pato com laranja" 
+        >
+        </a>
 
         <h3>Modo de preparo</h3>
         <p>
             Descasque as batatas e cozinhe até ficarem al dente. Retire a polpa das laranjas e corte as cascas em tiras finas. dexie ferver as cascas em uma panela, por cinco minutos, e coe-as. Repita o processo por 3 vezes para tirar o amargo da casca. Mas guarde a água da fervura e resever as cascas. 
         </p>
 
-        <h3 style="clear: left">Ingredientes</h3>
+        <h3>Ingredientes</h3>
         <ul>
             <li>1 pato inteiro limpo</li>
             <li>500g de batata pequena</li>
@@ -43,5 +31,11 @@
             <li>Sal</li>
             <li>20g de salsinha picada</li>
         </ul>
+
+        <p><a href="receita/alinhamento_img.html" target="blank">Vá para outra página</a></p>
+
+        <p><a href="http://www.google.com" target="blank">Vá para o Google</a></p>
+
+        <p><a href="#topo">Voltar ao Topo</a></p>
     </body>
 </html>
